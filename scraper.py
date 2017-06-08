@@ -3,14 +3,9 @@ import os
 import logging
 import urllib
 from bs4 import BeautifulSoup
-import unicodedata
-import string
 import shutil
 import re
-import xlrd
 import pandas
-import pandas.io.sql as pd_sql
-import sqlite3 as sql
 
 log = logging.getLogger(__name__)
 DATA_PATH = os.environ.get('DATA_PATH', 'data')
