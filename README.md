@@ -6,5 +6,5 @@ pip install -r requirements.txt
 ```
 run the scraper
 ```
-ptyhon3 scraper.py
+python3 scraper.py
 ```
